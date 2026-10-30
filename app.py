@@ -1,7 +1,7 @@
 import streamlit as st
 import random
 
-st.set_page_config(page_title="Spin Wheel", page_width=1000)
+st.set_page_config(page_title="Spin Wheel", layout="wide")
 
 if "colors" not in st.session_state:
     st.session_state.colors = [
